@@ -1,5 +1,5 @@
 {% set name = "starplot" %}
-{% set version = "0.19.2" %}
+{% set version = "0.19.3" %}
 
 package:
   name: {{ name|lower }}
@@ -37,8 +37,8 @@ requirements:
     - pyogrio >=0.10.0
     - rtree >=1.2.0
     - requests >=2.31.0
-    - python-duckdb <1.4.0
-    - ibis-framework <11
+    - python-duckdb >=1.4.4
+    - ibis-framework >=11.0.0
     - astropy-healpix >=1.1.2
 
 test:
