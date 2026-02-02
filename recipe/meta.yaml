@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/starplot-{{ version }}.tar.gz
-  sha256: 6a704aba8aa937493af65d2b2f6e9c8e420c1e185d655670c69be66a95db688e
+  sha256: 14fced79b8d3c3c5340611d3b01834abb60674e36dec2e22eebec53544373074
 
 build:
   entry_points:
@@ -40,6 +40,7 @@ requirements:
     - python-duckdb >=1.4.4
     - ibis-framework >=11.0.0
     - astropy-healpix >=1.1.2
+    - sqlglot <28.7.0
 
 test:
   imports:
