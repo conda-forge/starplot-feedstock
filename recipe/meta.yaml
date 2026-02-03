@@ -1,5 +1,5 @@
 {% set name = "starplot" %}
-{% set version = "0.19.3" %}
+{% set version = "0.19.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/starplot-{{ version }}.tar.gz
-  sha256: 14fced79b8d3c3c5340611d3b01834abb60674e36dec2e22eebec53544373074
+  sha256: b44b229d7a63ba6d1231116b97ed8f0ed5285262242b22b941d8869a2a07892a
 
 build:
   entry_points:
