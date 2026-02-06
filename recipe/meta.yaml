@@ -40,7 +40,7 @@ requirements:
     - python-duckdb >=1.4.4
     - ibis-framework >=11.0.0
     - astropy-healpix >=1.1.2
-    - sqlglot <28.7.0
+    - sqlglot >=28.9.0
 
 test:
   imports:
