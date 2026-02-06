@@ -1,5 +1,5 @@
 {% set name = "starplot" %}
-{% set version = "0.19.4" %}
+{% set version = "0.19.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/starplot-{{ version }}.tar.gz
-  sha256: b44b229d7a63ba6d1231116b97ed8f0ed5285262242b22b941d8869a2a07892a
+  sha256: d46cdf32a4a197529269c65f70204ce787f8ccf7bd9ef9e9c925a781691f52ea
 
 build:
   entry_points:
@@ -40,7 +40,7 @@ requirements:
     - python-duckdb >=1.4.4
     - ibis-framework >=11.0.0
     - astropy-healpix >=1.1.2
-    - sqlglot <28.7.0
+    - sqlglot >=28.9.0
 
 test:
   imports:
