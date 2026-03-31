@@ -1,5 +1,5 @@
 {% set name = "starplot" %}
-{% set version = "0.20.1" %}
+{% set version = "0.20.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/starplot-{{ version }}.tar.gz
-  sha256: a9a787c640f9fa1b38630e88e2d0a7d93cd74c4f07d7675350704cbcd2f37782
+  sha256: f68f07f3f06774c91753236d803899f7b7e0bcf99e81b62c39c85ba32e819015
 
 build:
   entry_points:
@@ -25,7 +25,7 @@ requirements:
     - python >={{ python_min }}
     - matplotlib-base >=3.8.0
     - numpy >=1.26.2
-    - pandas >=1.4.0
+    - pandas <=2.2.3
     - pydantic >=2.10.6
     - shapely >=2.0.1
     - skyfield >=1.41
@@ -37,7 +37,7 @@ requirements:
     - pyogrio >=0.10.0
     - rtree >=1.2.0
     - requests >=2.31.0
-    - python-duckdb >=1.4.4
+    - duckdb >=1.4.4
     - ibis-framework >=11.0.0
     - astropy-healpix >=1.1.2
     - sqlglot >=28.9.0
