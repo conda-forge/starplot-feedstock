@@ -25,7 +25,7 @@ requirements:
     - python >={{ python_min }}
     - matplotlib-base >=3.8.0
     - numpy >=1.26.2
-    - pandas >=1.4.0
+    - pandas <=2.2.3
     - pydantic >=2.10.6
     - shapely >=2.0.1
     - skyfield >=1.41
@@ -37,7 +37,7 @@ requirements:
     - pyogrio >=0.10.0
     - rtree >=1.2.0
     - requests >=2.31.0
-    - python-duckdb >=1.4.4
+    - duckdb >=1.4.4
     - ibis-framework >=11.0.0
     - astropy-healpix >=1.1.2
     - sqlglot >=28.9.0
