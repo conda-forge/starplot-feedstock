@@ -23,13 +23,13 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - matplotlib-base >=3.8.0
+    - matplotlib-base <=3.10.9
     - numpy >=1.26.2
     - pandas <=2.2.3
     - pydantic >=2.10.6
     - shapely >=2.0.1
     - skyfield >=1.41
-    - cartopy >=0.21.1
+    - cartopy <=0.24.1
     - geopandas >=1.0.1
     - pillow >=10.0.0
     - pyyaml >=6.0.1
