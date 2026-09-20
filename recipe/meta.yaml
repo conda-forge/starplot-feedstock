@@ -1,5 +1,5 @@
 {% set name = "starplot" %}
-{% set version = "0.20.5" %}
+{% set version = "0.20.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/starplot-{{ version }}.tar.gz
-  sha256: 8143d74d8482ad28670e497ea08ebb0e43ad51b0bdc461e532014668639e2553
+  sha256: a43c58f011d965b9e58d038fd079348afafa44e6d452b25554b6f4797764006e
 
 build:
   entry_points:
