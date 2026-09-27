@@ -38,10 +38,10 @@ requirements:
     - ibis-framework >=11.0.0
     - astropy-healpix >=1.1.2
     - sqlglot >=28.9.0
-    - pyqtree == 1.0.0
-    - fonttools >= 4.62.1
-    - pydantic-extra-types >= 2.11.1
-    - cairosvg >= 2.9.0
+    - pyqtree ==1.0.0
+    - fonttools >=4.62.1
+    - pydantic-extra-types >=2.11.1
+    - cairosvg >=2.9.0
 
 test:
   imports:
