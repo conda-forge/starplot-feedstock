@@ -24,7 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy >=1.26.2
-    - pandas <=2.2.3
+    - pandas >=2.2.3
     - pydantic >=2.10.6
     - shapely >=2.0.1
     - skyfield >=1.41
@@ -38,7 +38,7 @@ requirements:
     - ibis-framework >=11.0.0
     - astropy-healpix >=1.1.2
     - sqlglot >=28.9.0
-    - pyqtree ==1.0.0
+    - pyqtree >=1.0.0
     - fonttools >=4.62.1
     - pydantic-extra-types >=2.11.1
     - cairosvg >=2.9.0
