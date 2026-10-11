@@ -42,6 +42,7 @@ requirements:
     - fonttools >=4.62.1
     - pydantic-extra-types >=2.11.1
     - cairosvg >=2.9.0
+    - python-tzdata
 
 test:
   imports:
