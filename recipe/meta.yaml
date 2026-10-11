@@ -1,5 +1,5 @@
 {% set name = "starplot" %}
-{% set version = "0.21.2" %}
+{% set version = "0.21.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/starplot-{{ version }}.tar.gz
-  sha256: 629b40776e510abffe874002b71b01e7c758feaa2644a5734dd1c2de44d5f100
+  sha256: 35f13fb514284ed9912e79f5913d52908de8ecd1931c9d6f9143c85f07b0909a
 
 build:
   entry_points:
@@ -24,7 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy >=1.26.2
-    - pandas <=2.2.3
+    - pandas >=2.2.3
     - pydantic >=2.10.6
     - shapely >=2.0.1
     - skyfield >=1.41
@@ -38,10 +38,11 @@ requirements:
     - ibis-framework >=11.0.0
     - astropy-healpix >=1.1.2
     - sqlglot >=28.9.0
-    - pyqtree ==1.0.0
+    - pyqtree >=1.0.0
     - fonttools >=4.62.1
     - pydantic-extra-types >=2.11.1
     - cairosvg >=2.9.0
+    - python-tzdata
 
 test:
   imports:
